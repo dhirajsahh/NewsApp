@@ -1,0 +1,22 @@
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.newsdata{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+    gap: 20px;
+}
+.newsdata img{
+    width: 100%;
+}
+.newsdata a{
+    text-decoration: none;
+    color: rgb(211, 74, 15);
+}
+.newsdata button {
+    padding: 5px;
+    border:2px solid rgb(208, 64, 189);
+    background-color: darkseagreen;
+}
